@@ -3,7 +3,7 @@
 
 A game of dominoes. 1 to 5 players (human or AI). Old course project in object-oriented programming, used now to learn GitHub.
 
-Compilation (on Linux using terminal):
+## Compilation (on Linux using terminal):
 
 The following files are neccessary for the compilation proces:
 main.cpp
@@ -14,12 +14,12 @@ Makefile
 To create an executable file under the name "domino", enter a "make" command.
 Enter "make clean" to delete all produced files.
 
-Rules:
+## Rules:
 
 See the text of the task for details, on: http://www.fuw.edu.pl/~werner/pz/ [text in Polish]. An
 extra rule was introduced, that the number of players cannot exceed than 5.
 
-Usage:
+## Usage:
 
 When you start the game, it would first ask You for the number of players; then
 You would be asked to introduce all players. Such introduction consists of two
