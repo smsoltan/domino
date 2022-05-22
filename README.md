@@ -6,10 +6,10 @@ A game of dominoes. 1 to 5 players (human or AI). Old course project in object-o
 ## Compilation (on Linux using terminal):
 
 The following files are neccessary for the compilation proces:
-main.cpp
-domino.h
-domino.cpp
-Makefile
+- main.cpp
+- domino.h
+- domino.cpp
+- Makefile
 
 To create an executable file under the name "domino", enter a "make" command.
 Enter "make clean" to delete all produced files.
