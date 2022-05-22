@@ -1,14 +1,9 @@
 # [D|o][M|i][N|o][!|!]
-by Stanisław Sołtan
+*by Stanisław Sołtan*
 
-A game of dominoes. Old course project in object-oriented programming, used now to learn GitHub.
+A game of dominoes. 1 to 5 players (human or AI). Old course project in object-oriented programming, used now to learn GitHub.
 
-General description:
-
-A game of dominos. 1 to 5 players (human or AI). Detailed description of
-implemented classes at the end of this file.
-
-Compilation:
+Compilation (on Linux using terminal):
 
 The following files are neccessary for the compilation proces:
 main.cpp
@@ -22,7 +17,7 @@ Enter "make clean" to delete all produced files.
 Rules:
 
 See the text of the task for details, on: http://www.fuw.edu.pl/~werner/pz/ [text in Polish]. An
-extra rule was introduced, that the number of players cannot be bigger than 5.
+extra rule was introduced, that the number of players cannot exceed than 5.
 
 Usage:
 
