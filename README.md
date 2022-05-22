@@ -17,7 +17,7 @@ Enter "make clean" to delete all produced files.
 ## Rules:
 
 See the text of the task for details, on: https://www.fuw.edu.pl/~werner/pz/files/kol2.pdf [text in Polish]. An
-extra rule was introduced, that the number of players cannot exceed than 5.
+extra rule was introduced, that the number of players cannot exceed 5.
 
 ## Usage:
 
