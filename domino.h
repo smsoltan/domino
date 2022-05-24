@@ -44,7 +44,7 @@ friend class Draw;
 public:
    decltype(pieces.begin()) lot(); //random piece from stack
    DS_stack();
-   Dominos::empty;
+   using Dominos::empty;
 };
 
 class DS_in_hand : public Dominos
@@ -60,7 +60,7 @@ friend class Move_real;
 public:
    Domino fit(); //domino with ends like ends of table(for checking, if human player could move)
    int fit(bool which_end);
-   Dominos::size;
+   using Dominos::size;
    friend std::ostream& operator<<(std::ostream& output, DS_table &input);
 };
 
@@ -154,6 +154,7 @@ class Player
 public:
    virtual void accept_pass(const std::string name) { }
    virtual Move_planned plan_move(Avatar *trigger, DS_in_hand *hand, Game *party) = 0;
+   virtual ~Player() {}
 };
 
 class Human : public Player
