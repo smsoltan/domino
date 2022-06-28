@@ -1,7 +1,7 @@
 # [D|o][M|i][N|o][!|!]
 *by Stanisław Sołtan*
 
-A game of dominoes. 1 to 5 players (human or AI). Old course project in object-oriented programming, used now to learn GitHub.
+A game of dominoes. 1 to 5 players (human or AI).
 
 ## Compilation (on Linux using terminal):
 
